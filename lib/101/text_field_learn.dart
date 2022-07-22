@@ -19,6 +19,7 @@ class _TextFieldLearnState extends State<TextFieldLearn> {
       body: Column(
         children: [
           TextField(
+            
             textInputAction: TextInputAction.next,
             focusNode: focusnodeTextField,
             decoration: _InputDecorator().emailInputDecarator,
