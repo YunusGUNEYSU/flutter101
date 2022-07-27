@@ -16,7 +16,7 @@ class listLearn extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Card(
               child: ListTile(
-                title:RandomImage(),
+                title:const RandomImage(),
                 dense: true,
                 onTap:() {},
                 subtitle: const Text('How do you use your card'),

@@ -43,8 +43,8 @@ class _StatefulLearnState extends State<StatefulLearn> {
             _countValue.toString(),
             style: Theme.of(context).textTheme.headline2,
           )),
-          Placeholder(),
-          CounterCustom(),
+          const Placeholder(),
+          const CounterCustom(),
         ],
       ),
     );

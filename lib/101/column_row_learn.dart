@@ -13,7 +13,7 @@ class ColumnRowLearn extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             mainAxisSize: MainAxisSize.max,
-            children: [
+            children: const [
               Text('as'),
               Text('asdas'),
               Text('data'),

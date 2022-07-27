@@ -32,12 +32,12 @@ class _PageViewLearnState extends State<PageViewLearn> {
               onPressed: () {
                 _pageControl.previousPage(duration: _DurationUtility._durationLow, curve: Curves.slowMiddle);
               },
-              child: Icon(Icons.chevron_left)),
+              child:  const Icon(Icons.chevron_left)),
           FloatingActionButton(
               onPressed: () {
                 _pageControl.nextPage(duration: _DurationUtility._durationLow, curve: Curves.slowMiddle);
               },
-              child: Icon(Icons.chevron_right)),
+              child: const Icon(Icons.chevron_right)),
         ],
       ),
       appBar: AppBar(),
@@ -46,7 +46,7 @@ class _PageViewLearnState extends State<PageViewLearn> {
         padEnds: false,
         controller: _pageControl,
         children: [
-          RandomImage(),
+          const RandomImage(),
           Container(
             color: Colors.blue,
           ),
