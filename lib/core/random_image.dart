@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class RandomImage extends StatelessWidget {
   const RandomImage({Key? key, this.hight=100}) : super(key: key);
   final double hight;
+// ignore: non_constant_identifier_names
 final ImageUrl='https://picsum.photos/200/300';
   @override
   Widget build(BuildContext context) {

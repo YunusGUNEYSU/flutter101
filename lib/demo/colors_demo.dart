@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ColorDemo extends StatefulWidget {
-  ColorDemo({Key? key}) : super(key: key);
+  const ColorDemo({Key? key}) : super(key: key);
 
   @override
   State<ColorDemo> createState() => _ColorDemoState();
@@ -23,7 +23,7 @@ class _ColorDemoState extends State<ColorDemo> {
       bottomNavigationBar: BottomNavigationBar(onTap: 
       _ColorOnTap, 
       
-      items: [
+      items: const [
         BottomNavigationBarItem(
             icon: _ColorContainer(
               color: Colors.red,

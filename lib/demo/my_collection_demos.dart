@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 class MyCollectionDemos extends StatefulWidget {
-  MyCollectionDemos({Key? key}) : super(key: key);
+  const MyCollectionDemos({Key? key}) : super(key: key);
 
   @override
   State<MyCollectionDemos> createState() => _MyCollectionDemosState();

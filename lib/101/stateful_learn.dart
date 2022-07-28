@@ -12,7 +12,7 @@ class StatefulLearn extends StatefulWidget {
 
 class _StatefulLearnState extends State<StatefulLearn> {
   int _countValue = 0;
-  int _counterCustom = 0;
+  final int _counterCustom = 0;
 
   void _upgradeCounter(bool isIncreCount) {
     if (isIncreCount) {
@@ -55,7 +55,7 @@ class _StatefulLearnState extends State<StatefulLearn> {
       onPressed: () {
         _upgradeCounter(true);
       },
-      child: Icon(Icons.add),
+      child: const Icon(Icons.add),
     );
   }
 

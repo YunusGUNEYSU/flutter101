@@ -12,6 +12,7 @@ class _TabBarLearnState extends State<TabBarLearn> with TickerProviderStateMixin
 
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
     _tabController = TabController(length: 2, vsync: this);
@@ -32,7 +33,7 @@ class _TabBarLearnState extends State<TabBarLearn> with TickerProviderStateMixin
             
             child: TabBar(
               controller: _tabController,
-              tabs: [
+              tabs: const [
                 Tab(
                   text: 'Page1',
                 ),

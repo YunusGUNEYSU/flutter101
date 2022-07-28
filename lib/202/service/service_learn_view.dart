@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter101/202/service/post_mode.dart';
 
 class ServiceLearn extends StatefulWidget {
-  ServiceLearn({Key? key}) : super(key: key);
+  const ServiceLearn({Key? key}) : super(key: key);
 
   @override
   State<ServiceLearn> createState() => _ServiceLearnState();
@@ -53,7 +53,7 @@ void _changeLoading() {
         actions: [_isLoading?const CircularProgressIndicator():const SizedBox.shrink()],
       ),
       body: ListView.builder(
-        padding: EdgeInsets.symmetric(horizontal:10),
+        padding: const EdgeInsets.symmetric(horizontal:10),
         itemCount: _items?.length ?? 0,
         itemBuilder: (BuildContext context, int index) {
           return _PostCard(model: _items?[index]) ;
@@ -74,7 +74,7 @@ class _PostCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: EdgeInsets.only(bottom: 10),
+      margin: const EdgeInsets.only(bottom: 10),
       child: ListTile(
         title: Text(_model?.title??''),
         subtitle: Text(_model?.body??''),

@@ -12,18 +12,18 @@ class StackDemo extends StatelessWidget {
       body: Column(children: [
         Expanded(flex: 4, child: Stack(
           alignment: Alignment.center,
-          children: [Positioned.fill(child:  RandomImage(),bottom: cardHeight/2,),
+          children: [Positioned.fill(child:  const RandomImage(),bottom: cardHeight/2,),
           Positioned(
             height: cardHeight,
            width: 200,
             bottom: 0,
-            child: Card(
+            child: const Card(
               color: Colors.red,
               shape:RoundedRectangleBorder(),
             ))
          
         ],)),
-        Spacer(flex: 6,)
+        const Spacer(flex: 6,)
       ],
     
         

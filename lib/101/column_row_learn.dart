@@ -15,7 +15,7 @@ class ColumnRowLearn extends StatelessWidget {
             mainAxisSize: MainAxisSize.max,
             children: const [
               Text('as'),
-              Text('asdas'),
+              Text('asdasa'),
               Text('data'),
             ],
           )),

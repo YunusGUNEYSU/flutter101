@@ -12,7 +12,7 @@ class cardEx extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Card'),
+        title: const Text('Card'),
         leading: const Icon(Icons.menu),
         actions:<Widget> [ IconButton(onPressed:(){}, icon:const Icon(Icons.menu_book),)],
       ),

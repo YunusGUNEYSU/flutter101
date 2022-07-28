@@ -26,7 +26,7 @@ class _TextFieldLearnState extends State<TextFieldLearn> {
             inputFormatters: [
               TextInputRule()._formatter,
             ],
-            autofillHints: [AutofillHints.email],
+            autofillHints: const [AutofillHints.email],
             keyboardType: TextInputType.emailAddress,
             maxLength: 20,
           ),
@@ -49,7 +49,7 @@ class TextInputRule {
 }
 
 class _InputDecorator {
-  final emailInputDecarator = InputDecoration(
+  final emailInputDecarator = const InputDecoration(
     prefixIcon: Icon(Icons.mail),
     border: OutlineInputBorder(),
     labelText: languageItem.mailTitle,
